@@ -1,8 +1,7 @@
 import React from "react";
 import SearchBar from "./components/SearchBar";
 import MovieList from "./components/MovieList";
-
-const API = "Enter your Api key here";
+import {API} from "./config";
 
 class App extends React.Component {
   state = {
